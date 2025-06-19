@@ -4,31 +4,22 @@ Este proyecto fue desarrollado con el objetivo de registrar impresiones en base 
 
 # 📌 Descripción
 
-El flujo del sistema es el siguiente:
-
-Se registra en una base de datos un nuevo intento de impresión, incluyendo el nombre del archivo y marcándolo como Pendiente.
-
-Se obtiene el ID de ese registro.
-
-Se solicita toda la información al sistema para imprimir el ticket.
-
-Se genera un archivo temporal con los datos del ID y el contenido original.
-
-Se envía a impresión dicho archivo.
-
-Se actualiza el estado en la base de datos como Impreso o Error, dependiendo del resultado.
+* El flujo del sistema es el siguiente:
+* Se registra en una base de datos un nuevo intento de impresión, incluyendo el nombre del archivo y marcándolo como Pendiente.
+* Se obtiene el ID de ese registro.
+* Se solicita toda la información al sistema para imprimir el ticket.
+* Se genera un archivo temporal con los datos del ID y el contenido original.
+* Se envía a impresión dicho archivo.
+* Se actualiza el estado en la base de datos como Impreso o Error, dependiendo del resultado.
 
 Este proceso garantiza que toda impresión esté trazada y validada.
 
 # ⚙️ Tecnologías utilizadas
 
-PHP
-
-MySQL (PDO)
-
-Shell (lp / print) para ejecutar comandos del sistema
-
-Servidor web Apache
+* PHP
+* MySQL (PDO)
+* Shell (lp / print) para ejecutar comandos del sistema
+* Servidor web Apache
 
 # 🔒 Información sensible
 
@@ -43,6 +34,8 @@ Para más información técnica o detalles de implementación, puedes comunicart
 
 # 🧑‍💻 Montaje
 
+Accede a la representación visual del proyecto accediendo a través de la imagen.
+[![Demo del proyecto](./demo.png)](https://photos.app.goo.gl/zezQBTSwVZv5mk8a8)
 
 
 
